@@ -13,9 +13,9 @@ eureka:
 ---
 spring:
   profiles: cloud
-  zipkin:
-    service:
-      name: ${spring.application.name} 
+#  zipkin:
+#    service:
+#      name: ${spring.application.name} 
 eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
