@@ -27,8 +27,8 @@ security:
     enabled: false
   oauth2:
     client:
-      client-id: clientapp
-      client-secret: 123456
+      client-id: demo
+      client-secret: demo
       access-token-uri: ${uaa.server}/oauth/token
       user-authorization-uri: ${uaa.server}/oauth/authorize
       scope: read, write
